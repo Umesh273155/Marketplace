@@ -1,0 +1,46 @@
+*{
+  font-family:sans-serif;
+}
+
+.color{
+    color:rgb(43, 43, 43);
+
+
+}
+
+.App{
+    position:reative;
+}
+.chatIconDiv{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    
+    left:95%;
+position:fixed;z-index:900;
+    top:90%;
+    justify-content: center;
+    align-items:center;
+    background-color: #17a2b8;
+     background-image: linear-gradient(cyan, rgb(159, 159, 248)); 
+  }
+  
+.chatIcons{
+ 
+    color:white;
+    
+  }
+  .chatIconDiv:hover{
+    background-color:#0b5762;
+  }
+  @media(max-width:1024px){
+    .chatIconDiv{
+      position:fixed;
+     right:15%;
+     top:88%;
+     left:86%;
+    }
+  }
+ 
+  
